@@ -51,7 +51,8 @@ const MetaplexMenu = () => {
     return (
       <>
         <Modal
-          title={<img src={'/metaplex-logo.svg'} />}
+          // title={<img src={'/metaplex-logo.svg'} />}
+          title="INFINFTI"
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
@@ -110,7 +111,8 @@ const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/metaplex-logo.svg'} />
+      {/* <img src={'/kittysolanalogo.jpg'} /> */}
+      INFINFTI
     </Link>
   );
 };
