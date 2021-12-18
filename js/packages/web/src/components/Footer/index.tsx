@@ -96,7 +96,7 @@ export const Footer = () => {
             <div className="sub-header">
               {LABELS.STORE_NAME} NFT Marketplace
             </div>
-            <div className="footer-link">Powered by InfiNFTi and Solana</div>
+            {/* <div className="footer-link">Powered by InfiNFTi and Solana</div> */}
           </div>
         ) : null}
         {footerConf.components.map(component => (
